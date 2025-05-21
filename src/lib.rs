@@ -1,3 +1,5 @@
+pub mod tracing_utils;
+
 use chrono::Utc;
 use serde::{Deserialize, Serialize};
 use std::{fs::OpenOptions, io::Write, sync::Arc};
